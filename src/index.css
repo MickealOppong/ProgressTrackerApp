@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  letter-spacing: 0.1rem;
+  color: rgb(66, 66, 67);
+}
+
+input {
+  margin-right: 3rem;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.title h1 {
+  text-transform: capitalize;
+  color: rgb(5, 133, 175);
+  margin-bottom: 0.5rem;
+}
+
+.title span {
+  color: darkolivegreen;
+}
+
+.title h2 {
+  text-transform: capitalize;
+  color: rgb(5, 133, 175);
+  margin-top: 0;
+}
+
+/*
+
+main {
+  width: 35rem;
+  margin-top: 5rem;
+  margin-left: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rebeccapurple;
+}
+*/
+.task {
+  width: 25rem;
+  margin: 2rem 0 1rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  background-color: white;
+}
+
+.task-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header p {
+  text-transform: capitalize;
+  margin-left: 1rem;
+}
+
+
+.btn {
+  width: 4rem;
+  height: 2rem;
+  background-color: darkolivegreen;
+  border-color: transparent;
+  color: white;
+  text-transform: capitalize;
+  margin-right: 1rem;
+}
+
+.sub-div {
+  width: 10rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo-items p {
+  text-transform: capitalize;
+  margin-left: 3rem;
+  margin-top: 0.5rem;
+}
+
+.todo-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.progress-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.text {
+  text-transform: capitalize;
+  margin-right: 0.5rem;
+  font-size: 0.9rem;
+}
+
+#myBar {
+
+  width: 1%;
+  height: 10px;
+  display: flex;
+  align-items: center;
+  background-color: #04AA6D;
+  border-radius: 10px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+input[type="checkbox"]:checked {
+  accent-color: darkolivegreen;
+}
+
+@media screen and (min-width:678px) {
+  .task {
+    width: 30rem;
+  }
+
+}
+
+@media screen and (min-width:768px) {
+  .task {
+    width: 30rem;
+  }
+
+}
+
+@media screen and (min-width:992px) {
+  .task {
+    width: 34rem;
+  }
+
+}
