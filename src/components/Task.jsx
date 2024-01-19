@@ -39,7 +39,7 @@ const Task = ({ title, progress, subsections, updateList, index }) => {
               <p>{subIndex}.{subtitle}</p>
               <input type="checkbox" onChange={() => {
                 updateList(index, subIndex)
-              }} checked={completed || false} />
+              }} checked={completed} />
             </div>)
           })
 
